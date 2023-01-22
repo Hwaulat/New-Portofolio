@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap'); */
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.display, .p-one {
+    text-align: center;
+}
+header {
+	background: #1A2238;
+	color: #eaeaea;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.logo {
+	margin-right: auto;
+	display: flex;
+	gap: 6px;
+}
+.logo-img {
+	width: 35px;
+	height: 35px;
+	margin-left: 10px;
+}
+.logo-title {
+	cursor: pointer;
+	transition: all .5s ease 0s;
+}
+.logo:hover {
+	color: #FF6A3D;
+	transform: rotate(2deg);
+}
+.btn {
+	margin-right: 10px;
+	border: none;
+	font-size: 20px;
+	padding: 6px 12px;
+	background: #afbcc7;
+	color: black;
+    font-weight: bold;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.btn:hover{
+    background-color: #FF6A3D;
+    color: white;
+}
+nav ul{
+	display: flex;
+	padding: 20px;
+}
+li {
+	list-style-type: none;
+	padding: 10px;
+    font-size: 20px;
+}
+li a {
+	transition: all .5s ease 0s;
+	display: inline-block;
+}
+li a:hover {
+	color: #FF6A3D;
+	transform: rotate(2deg);
+}
+a {
+	color: #eaeaea;
+	text-decoration: none;
+}
+.jumbotron {
+    padding: 2rem;
+    text-align: left;
+    background: #D5EDF4;
+}
+.jumbotron img {
+    border-radius: 110px;
+    box-shadow: 1px 1px 2px 0 rgb(255, 255, 255);
+}
+.p-one {
+    padding-top: 20px;
+    line-height: 20px;
+}
+.social a{
+    display: inline;
+}
+.container {
+    display: flex;
+    padding: 10px;
+    background-color: #e0e5eb;
+}
+.flex {
+    flex-basis: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+    background-color: #e0e5eb;
+}
+
+.content {
+    width: 65%;
+    float: left;
+}
+h2 {
+    padding-bottom: 10px;
+}
+.box {
+    height: 300px;
+    width: 800px;
+    float: left;
+    background-color: #D5EDF4;
+    box-shadow:1px 1px 2px 2px #afbcc7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.box img {
+    position: relative;
+    left: 380px;
+    bottom: 254px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.bn30 {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  .bn30 .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  }
+  
+  .bn30:after {
+    content: "";
+    border-radius: 18px;
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #0e0e10;
+  }
+  
+  .bn30:hover {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+  }
+  
+  .bn30:hover .text {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  }
+.gif {
+    height: 50%;
+}
+.box p {
+    text-align: justify;
+}
+.card {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+aside {
+    width: 35%;
+    float: right;
+}
+.box1 {
+    box-shadow: 2px 2px 2px 2px #afbcc7;
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: 10px;
+}
+.box1 p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.box1 img {
+    width: 100%;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+figure {
+    text-align: center;
+}
+table {
+    box-shadow: 1px 2px 3px 1px #afbcc7;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.card-port {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-item {
+	text-align: center;
+	width: 80%;
+    margin-bottom: 15px;
+	min-height: 200px;
+	max-height: 300px;
+	background-color: #e0e5eb;;
+	color: #222;
+	padding: 20px;
+	box-shadow: 2px 5px 5px 2px #afbcc7;
+	border-radius: 10px;
+}
+
+.card-title{
+    font-family: 'Im Fell DW Pica', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    line-height: 2px;
+}
+.card-title li{
+    font-size: 15px;
+    position: relative;
+    bottom: 7px;
+}
+.satu {
+    font-size: 20px;
+    font-weight: bold;
+}
+.dua {
+    font-size: 12px;
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.card-deskripsi {
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.icon {
+	width: 75px;
+	height: 75px;
+	margin: 10px;
+	padding: 4px;
+}
+footer {
+    background-color: #1f3444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+    .content, aside, table, .card-item {
+        width: 100%;
+        padding: 0;
+    }
+}
+
